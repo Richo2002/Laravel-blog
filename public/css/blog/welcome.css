@@ -1,0 +1,95 @@
+main
+{
+    width: 83%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.titleAndIcon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+}
+h1
+{
+    color: #004cff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.articlesBox
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 103%;
+
+}
+.imageAndContent
+{
+    height: 350px;
+    width: 30%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-right: 36px;
+}
+
+.imageAndContent > img
+{
+    display: block;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.imageAndContent > h4
+{
+    margin-bottom: 10px;
+    width: 94%;
+    color: #004CFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imageAndContent > span
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    width: 94%;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+
+
+.imageAndContent > span > a
+{
+    color: #004CFF;
+    text-align: center;
+    border: 0.1px solid #004CFF;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 3px 12px 3px 12px;
+    
+}
+
+
+.imageAndContent > p
+{
+    width: 94%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 21%;
+}

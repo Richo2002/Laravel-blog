@@ -1,0 +1,42 @@
+main
+{
+    width: 83%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 430px;
+}
+#loginForm
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+h1
+{
+    color: #004CFF;
+}
+
+
+#loginForm input
+{
+    width: 50%;
+    height: 12%;
+    display: block;
+    border: 0.1px solid black;
+    margin-bottom: 15px;
+}
+
+button
+{
+    width: 20%;
+    background-color: #004CFF;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px;
+    font-weight: bold;
+}

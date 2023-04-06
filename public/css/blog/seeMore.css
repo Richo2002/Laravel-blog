@@ -1,0 +1,162 @@
+main
+{
+    width: 83%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h1
+{
+    color: #004CFF;
+}
+main h3
+{
+    color: #004CFF;   
+    margin-bottom: 0px;
+}
+.underTitle
+{
+    position: relative;
+    top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.underTitle > span
+{
+    color: #8A8A8A;
+}
+#ImageSeeMore
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+main > p
+{
+    margin-bottom: 25px;
+}
+
+#addCommentForm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 25px;
+}
+
+#addCommentForm input[type='text']
+{
+    width: 50%;
+    display: block;
+    height: 20%;
+    border: 0.1px solid black;
+    font-size: 1em;
+    
+}
+textarea
+{
+    max-width: 50%;
+    max-height: 45%;
+    min-height: 45%;
+    min-width: 50%;
+    border: 0.1px solid black;
+    font-size: 1.2em;
+}
+
+button
+{
+    width: 20%;
+    background-color: #004CFF;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h2 > span
+{
+    color: #004CFF;
+}
+
+h2
+{
+    margin-bottom: 0px;
+   
+}
+
+.bloc-Comments
+{
+    margin-top: 0px;
+}
+
+.bloc-Comment > span
+{
+    color: #8A8A8A;
+}
+
+.bloc-profileAndPseudo
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.bloc-profileAndPseudo img
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 11px;
+}
+.bloc-Comment
+{
+    margin-bottom: 20px;
+}
+
+.bloc-Comment > a
+{
+    display:inline-block;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    border: 0.1px solid #004CFF;
+    background-color: #004CFF;
+    padding: 5px;
+    text-decoration: none;
+
+
+}
+
+.bloc-Comment p
+{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 50%;
+
+}
+
+.bloc-Comment span
+{
+    margin-left: 60px;
+    margin-right: 280px;
+}
+
+.bloc-Comments
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+}

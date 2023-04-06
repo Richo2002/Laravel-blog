@@ -1,0 +1,82 @@
+body
+{
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+header
+{
+    width: 96.3%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px 25px 0px 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+#logo
+{
+    display: block;
+    height:70%;
+    margin-right: 660px;
+}
+#search
+{
+    display: block;
+    height:99%;
+    border: 0.1px solid black;
+    border-left: none;
+    background-color: white;
+}
+
+form
+{
+    width: 31%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+form input
+{
+    width: 91%;
+    border: 0.1px solid black; 
+    border-right: none;
+    height: 93%;
+}
+
+footer
+{
+
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #232323;
+    color: white;  
+    padding: 0px 25px 10px 25px;
+    width: 96.3%;
+    margin-bottom: 0px;
+}
+
+header > a
+{
+    display: block;
+    border: 0.1px solid #232323;
+    height: 50%;
+    padding: 10px 10px 0px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #232323;
+}
+
+marquee > h1
+{
+    margin-bottom: 166px;
+    margin-top: 170px;
+}
